@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@300;400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* =====================================================
+   THEME — Maroon & Gold Institutional Palette
+   ===================================================== */
+@theme {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  --color-maroon: #6B1A2A;
+  --color-maroon-dark: #4A0F1C;
+  --color-maroon-light: #8B2A3A;
+  --color-gold: #C9963A;
+  --color-gold-light: #E8B95A;
+  --color-cream: #FDFAF5;
+  --color-cream-alt: #F0E8DA;
+  --color-deep: #3D0A14;
+  --color-navy: #1A2A4A;
+}
+
+/* =====================================================
+   GLOBAL BASE
+   ===================================================== */
+* {
+  @apply antialiased;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: #1C0B10;
+  font-family: var(--font-body);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ── Hide scrollbar in all browsers, keep scroll working ── */
+html,
+body {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE / Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome / Safari / Opera */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-display);
+}
+
+/* =====================================================
+   UTILITY CLASSES
+   ===================================================== */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Page-top is no longer needed — inner pages use full-height heroes that start at top:0 */

@@ -1,0 +1,36 @@
+{
+            id: 'dining',
+            title: 'Nourishment & Dining',
+            items: [
+                {
+                    title: "The Dining Hall",
+                    tag: "Community",
+                    brief: "A massive, hygienic dining facility where students eat together as a family.",
+                    detail: "Dining is a communal experience. Our dining hall accommodates all students simultaneously, fostering a sense of equality and family. Meals are preceded by traditional prayers, emphasizing gratitude. The facility maintains the highest standards of hygiene and cleanliness.",
+                    img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+                    icon: "ph-fork-knife",
+                    size: "tall",
+                    colSpan: 1
+                },
+                {
+                    title: "Wholesome Menu",
+                    tag: "Health",
+                    brief: "Nutritious, purely vegetarian meals planned by dietitians.",
+                    detail: "The hostel provides a purely vegetarian, highly nutritious diet. The menu is carefully planned by dietitians to ensure growing students receive balanced macros and micros. From hearty breakfasts to wholesome dinners, the food is cooked with care and devotion.",
+                    img: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800",
+                    icon: "ph-bowl-food",
+                    size: "short",
+                    colSpan: 2
+                },
+                {
+                    title: "Evening Snacks",
+                    tag: "Refreshment",
+                    brief: "Healthy beverages and snacks provided after evening sports.",
+                    detail: "After rigorous evening games, students are provided with energy-replenishing snacks and healthy beverages like milk or fresh juices, ensuring they are refreshed before heading to their evening study sessions.",
+                    img: "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&q=80&w=800",
+                    icon: "ph-coffee",
+                    size: "short",
+                    colSpan: 1
+                }
+            ]
+        }
